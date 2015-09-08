@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  LocalizeMe
+
+  Created by 赖显波 on 9/8/15.
+  Copyright (c) 2015 Leckie. All rights reserved.
+*/
+"CFBundleName" = "本地化";
+"CFBundleDisplayName" = "本地化";
