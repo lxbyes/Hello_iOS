@@ -19,9 +19,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.dwarves = @[@"Sleepy", @"Sneezy", @"Bashful", @"Happy", @"Doc", @"Grumpy", @"Dopey", @"Thorin", @"Dorin", @"Nori", @"Ori", @"Balin", @"Dwalin", @"Fili", @"Kili", @"Oin", @"Gloin", @"Bifur", @"Bofur", @"Bombur"];
-    UITableView *tableView = (id)[self.view viewWithTag:1];
+   /* UITableView *tableView = (id)[self.view viewWithTag:1];
     UIEdgeInsets contentInset = tableView.contentInset;
-    [tableView setContentInset:contentInset];
+    [tableView setContentInset:contentInset];*/
 }
 
 - (void)didReceiveMemoryWarning {

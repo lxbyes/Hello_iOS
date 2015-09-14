@@ -99,11 +99,11 @@
 		0EA5B5E81BA02CE200D54A15 /* Life.Do */ = {
 			isa = PBXGroup;
 			children = (
-				0E35D08E1BA128D700DF5234 /* Controller */,
 				0E35D08D1BA1288C00DF5234 /* Application */,
-				0EA5B5F31BA02CE200D54A15 /* Main.storyboard */,
+				0E35D08E1BA128D700DF5234 /* Controller */,
 				0EA5B5F61BA02CE200D54A15 /* Images.xcassets */,
 				0EA5B5F81BA02CE200D54A15 /* LaunchScreen.xib */,
+				0EA5B5F31BA02CE200D54A15 /* Main.storyboard */,
 				0EA5B5E91BA02CE200D54A15 /* Supporting Files */,
 			);
 			path = Life.Do;

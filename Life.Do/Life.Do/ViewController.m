@@ -14,20 +14,20 @@
 
 @implementation ViewController
 {
-    NSUInteger currentColorIndex;
-    NSArray *colors;
+    NSUInteger _currentColorIndex;
+    NSArray *_colors;
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    currentColorIndex = 0;
-    colors = @[[UIColor blackColor], [UIColor darkGrayColor], [UIColor grayColor], [UIColor purpleColor], [UIColor brownColor]];
+    _currentColorIndex = 0;
+    _colors = @[[UIColor blackColor], [UIColor darkGrayColor], [UIColor grayColor], [UIColor purpleColor], [UIColor brownColor]];
 }
 
 - (IBAction)toggleTheme:(UIButton *)sender {
-    currentColorIndex = (++currentColorIndex) % [colors count];
-    [self.view setBackgroundColor:colors[currentColorIndex]];
+    _currentColorIndex = (++_currentColorIndex) % [_colors count];
+    [self.view setBackgroundColor:_colors[_currentColorIndex]];
 }
 
 @end
