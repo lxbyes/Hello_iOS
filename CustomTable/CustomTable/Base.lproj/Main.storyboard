@@ -64,6 +64,7 @@
                                         <connections>
                                             <outlet property="containerView" destination="x9Z-iB-3Is" id="8Gj-je-arG"/>
                                             <outlet property="shadowView" destination="uBE-zg-gxB" id="v9b-HG-x5I"/>
+                                            <segue destination="SYX-S5-2LN" kind="show" id="cwh-9p-rO2"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -89,6 +90,86 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1260" y="455"/>
+        </scene>
+        <!--Option Table View Controller-->
+        <scene sceneID="L2f-g8-2oC">
+            <objects>
+                <tableViewController id="SYX-S5-2LN" customClass="OptionTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="59" sectionHeaderHeight="28" sectionFooterHeight="28" id="vfX-4y-2xF">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="OptionCellIdentifier" rowHeight="59" id="wem-ub-B69" customClass="OptionTableViewCell">
+                                <rect key="frame" x="0.0" y="92" width="600" height="59"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="wem-ub-B69" id="vuW-yn-gRe">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="59"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tvW-Xe-654">
+                                            <rect key="frame" x="541" y="0.0" width="59" height="59"/>
+                                            <color key="backgroundColor" red="1" green="0.075942711790000006" blue="0.13222349580000001" alpha="1" colorSpace="calibratedRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="60" id="xp7-Mf-qVa"/>
+                                            </constraints>
+                                            <state key="normal" title="删除">
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            </state>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uMC-nA-9AL">
+                                            <rect key="frame" x="395" y="0.0" width="146" height="59"/>
+                                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="100" id="drU-zI-IsZ"/>
+                                            </constraints>
+                                            <state key="normal" title="标记为已读">
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            </state>
+                                        </button>
+                                        <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HLw-oL-sF4">
+                                            <rect key="frame" x="0.0" y="-8" width="600" height="67"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Message" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c51-Xr-hgS">
+                                                    <rect key="frame" x="24" y="16" width="146" height="28"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </view>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="tvW-Xe-654" firstAttribute="top" secondItem="vuW-yn-gRe" secondAttribute="topMargin" id="01Z-Rx-RnQ"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="tvW-Xe-654" secondAttribute="bottom" id="G51-O7-nnB"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="HLw-oL-sF4" secondAttribute="trailing" id="NxR-eZ-Wja"/>
+                                        <constraint firstItem="HLw-oL-sF4" firstAttribute="top" secondItem="vuW-yn-gRe" secondAttribute="topMargin" id="YHl-YX-VYA"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="tvW-Xe-654" secondAttribute="trailing" id="d67-vh-QMq"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="HLw-oL-sF4" secondAttribute="bottom" id="f1S-Uk-Onf"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="uMC-nA-9AL" secondAttribute="bottom" id="ilq-Od-LyH"/>
+                                        <constraint firstItem="HLw-oL-sF4" firstAttribute="leading" secondItem="vuW-yn-gRe" secondAttribute="leadingMargin" id="mI1-vj-EFB"/>
+                                        <constraint firstItem="tvW-Xe-654" firstAttribute="leading" secondItem="uMC-nA-9AL" secondAttribute="trailing" id="nl5-aA-hot"/>
+                                        <constraint firstItem="uMC-nA-9AL" firstAttribute="top" secondItem="vuW-yn-gRe" secondAttribute="topMargin" id="umg-NO-6vs"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="containerView" destination="HLw-oL-sF4" id="AjF-lO-2wz"/>
+                                    <outlet property="deleteButton" destination="tvW-Xe-654" id="Glq-nN-UkQ"/>
+                                    <outlet property="markButton" destination="uMC-nA-9AL" id="LqJ-Tf-esz"/>
+                                    <outlet property="message" destination="c51-Xr-hgS" id="59F-PU-IeA"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="SYX-S5-2LN" id="vZd-10-3fe"/>
+                            <outlet property="delegate" destination="SYX-S5-2LN" id="T1o-Z6-cln"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Tlw-oF-7DJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1260" y="1167"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="COQ-YR-BwJ">

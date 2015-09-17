@@ -52,7 +52,7 @@
         case UIGestureRecognizerStateChanged:
         {
             CGPoint changePoint = [gesture locationInView:self.contentView];
-            snapView.center = CGPointMake(changePoint.x + x, changePoint.y + y);
+            snapView.center = CGPointMake(changePoint.x + x, snapView.center.y);
             
             break;
         }

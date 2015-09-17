@@ -15,6 +15,9 @@
 		0E163D581BAA7B7A00DE6740 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E163D561BAA7B7A00DE6740 /* LaunchScreen.xib */; };
 		0E163D641BAA7B7A00DE6740 /* CustomTableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E163D631BAA7B7A00DE6740 /* CustomTableTests.m */; };
 		0E163D6F1BAA7EB600DE6740 /* CustomTableVIewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E163D6E1BAA7EB600DE6740 /* CustomTableVIewCell.m */; };
+		0E98E8AD1BAA9FAD006C23BC /* OptionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E98E8AC1BAA9FAD006C23BC /* OptionTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		0E98E8B01BAAA0A9006C23BC /* OptionTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E98E8AF1BAAA0A9006C23BC /* OptionTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		0E98E8B31BAACA7D006C23BC /* OptionTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E98E8B21BAACA7D006C23BC /* OptionTableView.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +46,12 @@
 		0E163D631BAA7B7A00DE6740 /* CustomTableTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTableTests.m; sourceTree = "<group>"; };
 		0E163D6D1BAA7EB600DE6740 /* CustomTableVIewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableVIewCell.h; sourceTree = "<group>"; };
 		0E163D6E1BAA7EB600DE6740 /* CustomTableVIewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableVIewCell.m; sourceTree = "<group>"; };
+		0E98E8AB1BAA9FAD006C23BC /* OptionTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionTableViewCell.h; sourceTree = "<group>"; };
+		0E98E8AC1BAA9FAD006C23BC /* OptionTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionTableViewCell.m; sourceTree = "<group>"; };
+		0E98E8AE1BAAA0A9006C23BC /* OptionTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionTableViewController.h; sourceTree = "<group>"; };
+		0E98E8AF1BAAA0A9006C23BC /* OptionTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionTableViewController.m; sourceTree = "<group>"; };
+		0E98E8B11BAACA7D006C23BC /* OptionTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionTableView.h; sourceTree = "<group>"; };
+		0E98E8B21BAACA7D006C23BC /* OptionTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionTableView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +136,10 @@
 			children = (
 				0E163D6D1BAA7EB600DE6740 /* CustomTableVIewCell.h */,
 				0E163D6E1BAA7EB600DE6740 /* CustomTableVIewCell.m */,
+				0E98E8AB1BAA9FAD006C23BC /* OptionTableViewCell.h */,
+				0E98E8AC1BAA9FAD006C23BC /* OptionTableViewCell.m */,
+				0E98E8B11BAACA7D006C23BC /* OptionTableView.h */,
+				0E98E8B21BAACA7D006C23BC /* OptionTableView.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -136,6 +149,8 @@
 			children = (
 				0E163D4E1BAA7B7A00DE6740 /* ViewController.h */,
 				0E163D4F1BAA7B7A00DE6740 /* ViewController.m */,
+				0E98E8AE1BAAA0A9006C23BC /* OptionTableViewController.h */,
+				0E98E8AF1BAAA0A9006C23BC /* OptionTableViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -242,7 +257,10 @@
 			files = (
 				0E163D501BAA7B7A00DE6740 /* ViewController.m in Sources */,
 				0E163D4D1BAA7B7A00DE6740 /* AppDelegate.m in Sources */,
+				0E98E8B31BAACA7D006C23BC /* OptionTableView.m in Sources */,
 				0E163D6F1BAA7EB600DE6740 /* CustomTableVIewCell.m in Sources */,
+				0E98E8AD1BAA9FAD006C23BC /* OptionTableViewCell.m in Sources */,
+				0E98E8B01BAAA0A9006C23BC /* OptionTableViewController.m in Sources */,
 				0E163D4A1BAA7B7A00DE6740 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -440,6 +458,7 @@
 				0E163D691BAA7B7A00DE6740 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0E163D6A1BAA7B7A00DE6740 /* Build configuration list for PBXNativeTarget "CustomTableTests" */ = {
 			isa = XCConfigurationList;
@@ -448,6 +467,7 @@
 				0E163D6C1BAA7B7A00DE6740 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
