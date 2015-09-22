@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		0E748C4F1BB1538E00BC3F10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E748C4E1BB1538E00BC3F10 /* main.m */; };
 		0E748C521BB1538E00BC3F10 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E748C511BB1538E00BC3F10 /* AppDelegate.m */; };
-		0E748C551BB1538E00BC3F10 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E748C541BB1538E00BC3F10 /* ViewController.m */; };
+		0E748C551BB1538E00BC3F10 /* LMRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E748C541BB1538E00BC3F10 /* LMRootViewController.m */; };
 		0E748C581BB1538E00BC3F10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E748C561BB1538E00BC3F10 /* Main.storyboard */; };
 		0E748C5A1BB1538E00BC3F10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E748C591BB1538E00BC3F10 /* Assets.xcassets */; };
 		0E748C5D1BB1538E00BC3F10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E748C5B1BB1538E00BC3F10 /* LaunchScreen.storyboard */; };
 		0E748C681BB1538E00BC3F10 /* LeftMenuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E748C671BB1538E00BC3F10 /* LeftMenuTests.m */; };
 		0E748C731BB1538E00BC3F10 /* LeftMenuUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E748C721BB1538E00BC3F10 /* LeftMenuUITests.m */; };
+		0E748C821BB1609300BC3F10 /* LMContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E748C811BB1609300BC3F10 /* LMContentViewController.m */; settings = {ASSET_TAGS = (); }; };
 		A9F303378686AFA05BF4369C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BEDB4B80F6C81E3E8B0A6ABD /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -40,8 +41,8 @@
 		0E748C4E1BB1538E00BC3F10 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0E748C501BB1538E00BC3F10 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0E748C511BB1538E00BC3F10 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0E748C531BB1538E00BC3F10 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0E748C541BB1538E00BC3F10 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0E748C531BB1538E00BC3F10 /* LMRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMRootViewController.h; sourceTree = "<group>"; };
+		0E748C541BB1538E00BC3F10 /* LMRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMRootViewController.m; sourceTree = "<group>"; };
 		0E748C571BB1538E00BC3F10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0E748C591BB1538E00BC3F10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E748C5C1BB1538E00BC3F10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -52,6 +53,8 @@
 		0E748C6E1BB1538E00BC3F10 /* LeftMenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeftMenuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E748C721BB1538E00BC3F10 /* LeftMenuUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeftMenuUITests.m; sourceTree = "<group>"; };
 		0E748C741BB1538E00BC3F10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E748C801BB1609300BC3F10 /* LMContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMContentViewController.h; sourceTree = "<group>"; };
+		0E748C811BB1609300BC3F10 /* LMContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMContentViewController.m; sourceTree = "<group>"; };
 		8B0D4A3644F0799E8BDC0998 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		BEDB4B80F6C81E3E8B0A6ABD /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFB2F994ABBDF203FE846E72 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -110,13 +113,15 @@
 			children = (
 				0E748C501BB1538E00BC3F10 /* AppDelegate.h */,
 				0E748C511BB1538E00BC3F10 /* AppDelegate.m */,
-				0E748C531BB1538E00BC3F10 /* ViewController.h */,
-				0E748C541BB1538E00BC3F10 /* ViewController.m */,
+				0E748C531BB1538E00BC3F10 /* LMRootViewController.h */,
+				0E748C541BB1538E00BC3F10 /* LMRootViewController.m */,
 				0E748C561BB1538E00BC3F10 /* Main.storyboard */,
 				0E748C591BB1538E00BC3F10 /* Assets.xcassets */,
 				0E748C5B1BB1538E00BC3F10 /* LaunchScreen.storyboard */,
 				0E748C5E1BB1538E00BC3F10 /* Info.plist */,
 				0E748C4D1BB1538E00BC3F10 /* Supporting Files */,
+				0E748C801BB1609300BC3F10 /* LMContentViewController.h */,
+				0E748C811BB1609300BC3F10 /* LMContentViewController.m */,
 			);
 			path = LeftMenu;
 			sourceTree = "<group>";
@@ -329,7 +334,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E748C551BB1538E00BC3F10 /* ViewController.m in Sources */,
+				0E748C821BB1609300BC3F10 /* LMContentViewController.m in Sources */,
+				0E748C551BB1538E00BC3F10 /* LMRootViewController.m in Sources */,
 				0E748C521BB1538E00BC3F10 /* AppDelegate.m in Sources */,
 				0E748C4F1BB1538E00BC3F10 /* main.m in Sources */,
 			);

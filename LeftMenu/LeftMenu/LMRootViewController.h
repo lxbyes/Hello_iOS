@@ -6,10 +6,9 @@
 //  Copyright © 2015 Leckie. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "RESideMenu.h"
 
-@interface ViewController : UIViewController
-
+@interface LMRootViewController : RESideMenu
 
 @end
 
