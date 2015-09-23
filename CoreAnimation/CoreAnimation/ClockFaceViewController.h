@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ClockFace.h"
 
 @interface ClockFaceViewController : UIViewController
+
+@property (strong, nonatomic) ClockFace *clockFace;
+@property (weak, nonatomic) IBOutlet UIDatePicker *datePicker;
 
 @end

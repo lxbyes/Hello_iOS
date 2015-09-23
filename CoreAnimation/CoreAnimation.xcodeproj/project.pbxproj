@@ -15,6 +15,10 @@
 		0E764C321BABE8D10086ADC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E764C301BABE8D10086ADC4 /* LaunchScreen.storyboard */; };
 		0E764C3D1BABE8D10086ADC4 /* CoreAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E764C3C1BABE8D10086ADC4 /* CoreAnimationTests.m */; };
 		0E764C481BABE8D10086ADC4 /* CoreAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E764C471BABE8D10086ADC4 /* CoreAnimationUITests.m */; };
+		0E764C571BAC0F380086ADC4 /* ClockFace.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E764C561BAC0F380086ADC4 /* ClockFace.m */; settings = {ASSET_TAGS = (); }; };
+		0E764C5A1BAC12270086ADC4 /* ClockFaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E764C591BAC12270086ADC4 /* ClockFaceViewController.m */; settings = {ASSET_TAGS = (); }; };
+		0E764C5D1BAC178A0086ADC4 /* ClockFace2.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E764C5C1BAC178A0086ADC4 /* ClockFace2.m */; settings = {ASSET_TAGS = (); }; };
+		0E764C601BAC183C0086ADC4 /* ClockFace2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E764C5F1BAC183C0086ADC4 /* ClockFace2ViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,14 @@
 		0E764C431BABE8D10086ADC4 /* CoreAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E764C471BABE8D10086ADC4 /* CoreAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreAnimationUITests.m; sourceTree = "<group>"; };
 		0E764C491BABE8D20086ADC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E764C551BAC0F380086ADC4 /* ClockFace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClockFace.h; sourceTree = "<group>"; };
+		0E764C561BAC0F380086ADC4 /* ClockFace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClockFace.m; sourceTree = "<group>"; };
+		0E764C581BAC12270086ADC4 /* ClockFaceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClockFaceViewController.h; sourceTree = "<group>"; };
+		0E764C591BAC12270086ADC4 /* ClockFaceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClockFaceViewController.m; sourceTree = "<group>"; };
+		0E764C5B1BAC178A0086ADC4 /* ClockFace2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClockFace2.h; sourceTree = "<group>"; };
+		0E764C5C1BAC178A0086ADC4 /* ClockFace2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClockFace2.m; sourceTree = "<group>"; };
+		0E764C5E1BAC183C0086ADC4 /* ClockFace2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClockFace2ViewController.h; sourceTree = "<group>"; };
+		0E764C5F1BAC183C0086ADC4 /* ClockFace2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClockFace2ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +122,14 @@
 				0E764C301BABE8D10086ADC4 /* LaunchScreen.storyboard */,
 				0E764C331BABE8D10086ADC4 /* Info.plist */,
 				0E764C221BABE8D10086ADC4 /* Supporting Files */,
+				0E764C551BAC0F380086ADC4 /* ClockFace.h */,
+				0E764C561BAC0F380086ADC4 /* ClockFace.m */,
+				0E764C581BAC12270086ADC4 /* ClockFaceViewController.h */,
+				0E764C591BAC12270086ADC4 /* ClockFaceViewController.m */,
+				0E764C5B1BAC178A0086ADC4 /* ClockFace2.h */,
+				0E764C5C1BAC178A0086ADC4 /* ClockFace2.m */,
+				0E764C5E1BAC183C0086ADC4 /* ClockFace2ViewController.h */,
+				0E764C5F1BAC183C0086ADC4 /* ClockFace2ViewController.m */,
 			);
 			path = CoreAnimation;
 			sourceTree = "<group>";
@@ -270,8 +290,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E764C601BAC183C0086ADC4 /* ClockFace2ViewController.m in Sources */,
 				0E764C2A1BABE8D10086ADC4 /* ViewController.m in Sources */,
+				0E764C5A1BAC12270086ADC4 /* ClockFaceViewController.m in Sources */,
+				0E764C571BAC0F380086ADC4 /* ClockFace.m in Sources */,
 				0E764C271BABE8D10086ADC4 /* AppDelegate.m in Sources */,
+				0E764C5D1BAC178A0086ADC4 /* ClockFace2.m in Sources */,
 				0E764C241BABE8D10086ADC4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
