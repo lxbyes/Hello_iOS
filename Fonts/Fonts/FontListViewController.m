@@ -52,7 +52,7 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     
     cell.textLabel.font = [self fontForDisplayAtIndexPath:indexPath];
-    cell.textLabel.text = self.fontNames[indexPath.row];
+    cell.textLabel.text = [NSString stringWithFormat:@"%@-->*#+-0123", self.fontNames[indexPath.row]];
     cell.detailTextLabel.text = self.fontNames[indexPath.row];
     
     return cell;

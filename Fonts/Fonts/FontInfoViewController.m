@@ -22,7 +22,7 @@
 
 - (void)viewDidLoad {
     self.fontSampleLabel.font = self.font;
-    self.fontSampleLabel.text = @"QWERTYUIOPASDFGHJKLZXCVBNMqwertyuiopasdfghjklxcvbnm1234567890";
+    self.fontSampleLabel.text = @"QWERTYUIOPASDFGHJKLZXCVBNMqwertyuiopasdfghjklxcvbnm*#+-@$%^1234567890";
     self.fontSizeLabel.text = [NSString stringWithFormat:@"%.0f", self.font.pointSize];
     self.fontSizeSlider.value = self.font.pointSize;
     self.favoriteSwitch.on = self.favorite;

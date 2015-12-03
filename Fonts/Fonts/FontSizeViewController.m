@@ -35,7 +35,7 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     
     cell.textLabel.font = [self fontForDisplayAtIndexPath:indexPath];
-    cell.textLabel.text = self.font.fontName;
+    cell.textLabel.text = [NSString stringWithFormat:@"%@-->*#+-0123", self.font.fontName];
     cell.detailTextLabel.text = [NSString stringWithFormat:@"%@ point", [self pointSize][indexPath.row]];
     
     return cell;

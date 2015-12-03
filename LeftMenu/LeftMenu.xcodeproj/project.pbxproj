@@ -118,7 +118,6 @@
 				0E748C561BB1538E00BC3F10 /* Main.storyboard */,
 				0E748C591BB1538E00BC3F10 /* Assets.xcassets */,
 				0E748C5B1BB1538E00BC3F10 /* LaunchScreen.storyboard */,
-				0E748C5E1BB1538E00BC3F10 /* Info.plist */,
 				0E748C4D1BB1538E00BC3F10 /* Supporting Files */,
 				0E748C801BB1609300BC3F10 /* LMContentViewController.h */,
 				0E748C811BB1609300BC3F10 /* LMContentViewController.m */,
@@ -129,6 +128,7 @@
 		0E748C4D1BB1538E00BC3F10 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0E748C5E1BB1538E00BC3F10 /* Info.plist */,
 				0E748C4E1BB1538E00BC3F10 /* main.m */,
 			);
 			name = "Supporting Files";

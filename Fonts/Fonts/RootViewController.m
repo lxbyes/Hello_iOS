@@ -41,6 +41,7 @@
 - (UIFont *)fontForDisplayAtIndexPath:(NSIndexPath *)indexPath {
     if(indexPath.section == 0) {
         NSString *familyName = self.familyNames[indexPath.row];
+        NSLog(@"--->%@", familyName);
         NSString *fontName = [[UIFont fontNamesForFamilyName:familyName] firstObject];
         
         return [UIFont fontWithName:fontName size:self.cellPointSize];
@@ -84,7 +85,7 @@
         cell = [tableView dequeueReusableCellWithIdentifier:FamilyNameCell forIndexPath:indexPath];
         
         cell.textLabel.font = [self fontForDisplayAtIndexPath:indexPath];
-        cell.textLabel.text = self.familyNames[indexPath.row];
+        cell.textLabel.text = [NSString stringWithFormat:@"%@-->*#+-0123", self.familyNames[indexPath.row]];
         cell.detailTextLabel.text = self.familyNames[indexPath.row];
     } else {
         cell = [tableView dequeueReusableCellWithIdentifier:FavoritesCell forIndexPath:indexPath];
