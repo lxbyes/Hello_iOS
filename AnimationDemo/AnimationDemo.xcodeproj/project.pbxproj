@@ -7,14 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E2C2B151C2A7BC0009B672E /* ADCoreAnimation2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2C2B141C2A7BC0009B672E /* ADCoreAnimation2ViewController.m */; };
+		0E2C2B181C2A866C009B672E /* ADAnimationGroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2C2B171C2A866C009B672E /* ADAnimationGroupViewController.m */; };
+		0E2C2B1B1C2A9216009B672E /* ADImageBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2C2B1A1C2A9216009B672E /* ADImageBrowserViewController.m */; };
+		0E2C2B1E1C2A9C01009B672E /* ADDisplayLinkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2C2B1D1C2A9C01009B672E /* ADDisplayLinkViewController.m */; };
 		0E3330CB1BA2AC3D001633B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E3330CA1BA2AC3D001633B1 /* main.m */; };
-		0E3330CE1BA2AC3D001633B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E3330CD1BA2AC3D001633B1 /* AppDelegate.m */; };
-		0E3330D11BA2AC3D001633B1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E3330D01BA2AC3D001633B1 /* ViewController.m */; };
-		0E3330D41BA2AC3D001633B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E3330D21BA2AC3D001633B1 /* Main.storyboard */; };
+		0E3330CE1BA2AC3D001633B1 /* ADAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E3330CD1BA2AC3D001633B1 /* ADAppDelegate.m */; };
+		0E3330D11BA2AC3D001633B1 /* ADMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E3330D01BA2AC3D001633B1 /* ADMainViewController.m */; };
 		0E3330D61BA2AC3D001633B1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E3330D51BA2AC3D001633B1 /* Images.xcassets */; };
 		0E3330D91BA2AC3D001633B1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E3330D71BA2AC3D001633B1 /* LaunchScreen.xib */; };
 		0E3330E51BA2AC3D001633B1 /* AnimationDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E3330E41BA2AC3D001633B1 /* AnimationDemoTests.m */; };
-		0E3330F01BA2B0F3001633B1 /* LandscapeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E3330EF1BA2B0F3001633B1 /* LandscapeViewController.m */; };
+		0E3D662C1C294F1900A078F3 /* ADDrawLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E3D662B1C294F1900A078F3 /* ADDrawLayerViewController.m */; };
+		0E6C1ADD1C2948F500A6FC85 /* ADAnchorPointViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6C1ADC1C2948F500A6FC85 /* ADAnchorPointViewController.m */; };
+		0EF0F79A1C2B90270024F622 /* ADScrollViewImageBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF0F7991C2B90270024F622 /* ADScrollViewImageBrowserViewController.m */; };
+		0EF0F79E1C2BC5840024F622 /* ADFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF0F79D1C2BC5840024F622 /* ADFirstViewController.m */; };
+		0EF0F7A11C2BC5B80024F622 /* ADSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF0F7A01C2BC5B80024F622 /* ADSecondViewController.m */; };
+		0EF0F7A41C2BC7580024F622 /* ADParentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF0F7A31C2BC7580024F622 /* ADParentViewController.m */; };
+		0EF0F7A71C2BCF310024F622 /* ADTransitionMain1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF0F7A61C2BCF310024F622 /* ADTransitionMain1ViewController.m */; };
+		0EF0F7AA1C2BCF400024F622 /* ADTransitionModal1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF0F7A91C2BCF400024F622 /* ADTransitionModal1ViewController.m */; };
+		0EF0F7AE1C2BD28C0024F622 /* ADBouncePresentAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF0F7AD1C2BD28C0024F622 /* ADBouncePresentAnimation.m */; };
+		0EF0F7B11C2BDED20024F622 /* ADSwipeInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF0F7B01C2BDED20024F622 /* ADSwipeInteractiveTransition.m */; };
+		0EF0F7B41C2BE76E0024F622 /* ADBounceDismissAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF0F7B31C2BE76E0024F622 /* ADBounceDismissAnimation.m */; };
+		0EFB37401C2A3B630029EDC7 /* ADLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EFB373F1C2A3B630029EDC7 /* ADLayer.m */; };
+		0EFB37431C2A3C910029EDC7 /* ADLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EFB37421C2A3C910029EDC7 /* ADLayerView.m */; };
+		0EFB37461C2A3E440029EDC7 /* ADViewLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EFB37451C2A3E440029EDC7 /* ADViewLayerViewController.m */; };
+		0EFB37491C2A489E0029EDC7 /* ADCoreAnimation1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EFB37481C2A489E0029EDC7 /* ADCoreAnimation1ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,21 +45,56 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E2C2B131C2A7BC0009B672E /* ADCoreAnimation2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCoreAnimation2ViewController.h; sourceTree = "<group>"; };
+		0E2C2B141C2A7BC0009B672E /* ADCoreAnimation2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCoreAnimation2ViewController.m; sourceTree = "<group>"; };
+		0E2C2B161C2A866C009B672E /* ADAnimationGroupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADAnimationGroupViewController.h; sourceTree = "<group>"; };
+		0E2C2B171C2A866C009B672E /* ADAnimationGroupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADAnimationGroupViewController.m; sourceTree = "<group>"; };
+		0E2C2B191C2A9216009B672E /* ADImageBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADImageBrowserViewController.h; sourceTree = "<group>"; };
+		0E2C2B1A1C2A9216009B672E /* ADImageBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADImageBrowserViewController.m; sourceTree = "<group>"; };
+		0E2C2B1C1C2A9C01009B672E /* ADDisplayLinkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADDisplayLinkViewController.h; sourceTree = "<group>"; };
+		0E2C2B1D1C2A9C01009B672E /* ADDisplayLinkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADDisplayLinkViewController.m; sourceTree = "<group>"; };
 		0E3330C51BA2AC3D001633B1 /* AnimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E3330C91BA2AC3D001633B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0E3330CA1BA2AC3D001633B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0E3330CC1BA2AC3D001633B1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		0E3330CD1BA2AC3D001633B1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0E3330CF1BA2AC3D001633B1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0E3330D01BA2AC3D001633B1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		0E3330D31BA2AC3D001633B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0E3330CC1BA2AC3D001633B1 /* ADAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADAppDelegate.h; sourceTree = "<group>"; };
+		0E3330CD1BA2AC3D001633B1 /* ADAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADAppDelegate.m; sourceTree = "<group>"; };
+		0E3330CF1BA2AC3D001633B1 /* ADMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADMainViewController.h; sourceTree = "<group>"; };
+		0E3330D01BA2AC3D001633B1 /* ADMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADMainViewController.m; sourceTree = "<group>"; };
 		0E3330D51BA2AC3D001633B1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		0E3330D81BA2AC3D001633B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		0E3330DE1BA2AC3D001633B1 /* AnimationDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E3330E31BA2AC3D001633B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0E3330E41BA2AC3D001633B1 /* AnimationDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationDemoTests.m; sourceTree = "<group>"; };
-		0E3330EE1BA2B0F3001633B1 /* LandscapeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LandscapeViewController.h; sourceTree = "<group>"; };
-		0E3330EF1BA2B0F3001633B1 /* LandscapeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LandscapeViewController.m; sourceTree = "<group>"; };
+		0E3D662A1C294F1900A078F3 /* ADDrawLayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADDrawLayerViewController.h; sourceTree = "<group>"; };
+		0E3D662B1C294F1900A078F3 /* ADDrawLayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADDrawLayerViewController.m; sourceTree = "<group>"; };
+		0E6C1ADB1C2948F500A6FC85 /* ADAnchorPointViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADAnchorPointViewController.h; sourceTree = "<group>"; };
+		0E6C1ADC1C2948F500A6FC85 /* ADAnchorPointViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADAnchorPointViewController.m; sourceTree = "<group>"; };
+		0EF0F7981C2B90270024F622 /* ADScrollViewImageBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADScrollViewImageBrowserViewController.h; sourceTree = "<group>"; };
+		0EF0F7991C2B90270024F622 /* ADScrollViewImageBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADScrollViewImageBrowserViewController.m; sourceTree = "<group>"; };
+		0EF0F79C1C2BC5840024F622 /* ADFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADFirstViewController.h; sourceTree = "<group>"; };
+		0EF0F79D1C2BC5840024F622 /* ADFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADFirstViewController.m; sourceTree = "<group>"; };
+		0EF0F79F1C2BC5B80024F622 /* ADSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADSecondViewController.h; sourceTree = "<group>"; };
+		0EF0F7A01C2BC5B80024F622 /* ADSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADSecondViewController.m; sourceTree = "<group>"; };
+		0EF0F7A21C2BC7580024F622 /* ADParentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADParentViewController.h; sourceTree = "<group>"; };
+		0EF0F7A31C2BC7580024F622 /* ADParentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADParentViewController.m; sourceTree = "<group>"; };
+		0EF0F7A51C2BCF310024F622 /* ADTransitionMain1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADTransitionMain1ViewController.h; sourceTree = "<group>"; };
+		0EF0F7A61C2BCF310024F622 /* ADTransitionMain1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADTransitionMain1ViewController.m; sourceTree = "<group>"; };
+		0EF0F7A81C2BCF400024F622 /* ADTransitionModal1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADTransitionModal1ViewController.h; sourceTree = "<group>"; };
+		0EF0F7A91C2BCF400024F622 /* ADTransitionModal1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADTransitionModal1ViewController.m; sourceTree = "<group>"; };
+		0EF0F7AC1C2BD28C0024F622 /* ADBouncePresentAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADBouncePresentAnimation.h; sourceTree = "<group>"; };
+		0EF0F7AD1C2BD28C0024F622 /* ADBouncePresentAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADBouncePresentAnimation.m; sourceTree = "<group>"; };
+		0EF0F7AF1C2BDED20024F622 /* ADSwipeInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADSwipeInteractiveTransition.h; sourceTree = "<group>"; };
+		0EF0F7B01C2BDED20024F622 /* ADSwipeInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADSwipeInteractiveTransition.m; sourceTree = "<group>"; };
+		0EF0F7B21C2BE76E0024F622 /* ADBounceDismissAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADBounceDismissAnimation.h; sourceTree = "<group>"; };
+		0EF0F7B31C2BE76E0024F622 /* ADBounceDismissAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADBounceDismissAnimation.m; sourceTree = "<group>"; };
+		0EFB373E1C2A3B630029EDC7 /* ADLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADLayer.h; sourceTree = "<group>"; };
+		0EFB373F1C2A3B630029EDC7 /* ADLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADLayer.m; sourceTree = "<group>"; };
+		0EFB37411C2A3C910029EDC7 /* ADLayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADLayerView.h; sourceTree = "<group>"; };
+		0EFB37421C2A3C910029EDC7 /* ADLayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADLayerView.m; sourceTree = "<group>"; };
+		0EFB37441C2A3E440029EDC7 /* ADViewLayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADViewLayerViewController.h; sourceTree = "<group>"; };
+		0EFB37451C2A3E440029EDC7 /* ADViewLayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADViewLayerViewController.m; sourceTree = "<group>"; };
+		0EFB37471C2A489E0029EDC7 /* ADCoreAnimation1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCoreAnimation1ViewController.h; sourceTree = "<group>"; };
+		0EFB37481C2A489E0029EDC7 /* ADCoreAnimation1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCoreAnimation1ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,16 +136,10 @@
 		0E3330C71BA2AC3D001633B1 /* AnimationDemo */ = {
 			isa = PBXGroup;
 			children = (
-				0E3330CC1BA2AC3D001633B1 /* AppDelegate.h */,
-				0E3330CD1BA2AC3D001633B1 /* AppDelegate.m */,
-				0E3330D21BA2AC3D001633B1 /* Main.storyboard */,
-				0E3330D51BA2AC3D001633B1 /* Images.xcassets */,
-				0E3330D71BA2AC3D001633B1 /* LaunchScreen.xib */,
-				0EAAFE361BA93D72006B3553 /* Controllers */,
+				0EFB373D1C2A3B180029EDC7 /* View */,
+				0E6C1ADA1C29441900A6FC85 /* Controller */,
 				0EAAFE371BA93F82006B3553 /* Resources */,
 				0E3330C81BA2AC3D001633B1 /* Supporting Files */,
-				0E3330EE1BA2B0F3001633B1 /* LandscapeViewController.h */,
-				0E3330EF1BA2B0F3001633B1 /* LandscapeViewController.m */,
 			);
 			path = AnimationDemo;
 			sourceTree = "<group>";
@@ -101,6 +147,8 @@
 		0E3330C81BA2AC3D001633B1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0E3330CC1BA2AC3D001633B1 /* ADAppDelegate.h */,
+				0E3330CD1BA2AC3D001633B1 /* ADAppDelegate.m */,
 				0E3330C91BA2AC3D001633B1 /* Info.plist */,
 				0E3330CA1BA2AC3D001633B1 /* main.m */,
 			);
@@ -124,20 +172,83 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		0EAAFE361BA93D72006B3553 /* Controllers */ = {
+		0E6C1ADA1C29441900A6FC85 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				0E3330CF1BA2AC3D001633B1 /* ViewController.h */,
-				0E3330D01BA2AC3D001633B1 /* ViewController.m */,
+				0EF0F79B1C2BC5610024F622 /* trans */,
+				0E3330CF1BA2AC3D001633B1 /* ADMainViewController.h */,
+				0E3330D01BA2AC3D001633B1 /* ADMainViewController.m */,
+				0E6C1ADB1C2948F500A6FC85 /* ADAnchorPointViewController.h */,
+				0E6C1ADC1C2948F500A6FC85 /* ADAnchorPointViewController.m */,
+				0E3D662A1C294F1900A078F3 /* ADDrawLayerViewController.h */,
+				0E3D662B1C294F1900A078F3 /* ADDrawLayerViewController.m */,
+				0EFB37441C2A3E440029EDC7 /* ADViewLayerViewController.h */,
+				0EFB37451C2A3E440029EDC7 /* ADViewLayerViewController.m */,
+				0EFB37471C2A489E0029EDC7 /* ADCoreAnimation1ViewController.h */,
+				0EFB37481C2A489E0029EDC7 /* ADCoreAnimation1ViewController.m */,
+				0E2C2B131C2A7BC0009B672E /* ADCoreAnimation2ViewController.h */,
+				0E2C2B141C2A7BC0009B672E /* ADCoreAnimation2ViewController.m */,
+				0E2C2B161C2A866C009B672E /* ADAnimationGroupViewController.h */,
+				0E2C2B171C2A866C009B672E /* ADAnimationGroupViewController.m */,
+				0E2C2B191C2A9216009B672E /* ADImageBrowserViewController.h */,
+				0E2C2B1A1C2A9216009B672E /* ADImageBrowserViewController.m */,
+				0E2C2B1C1C2A9C01009B672E /* ADDisplayLinkViewController.h */,
+				0E2C2B1D1C2A9C01009B672E /* ADDisplayLinkViewController.m */,
+				0EF0F7981C2B90270024F622 /* ADScrollViewImageBrowserViewController.h */,
+				0EF0F7991C2B90270024F622 /* ADScrollViewImageBrowserViewController.m */,
 			);
-			path = Controllers;
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		0EAAFE371BA93F82006B3553 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				0E3330D51BA2AC3D001633B1 /* Images.xcassets */,
+				0E3330D71BA2AC3D001633B1 /* LaunchScreen.xib */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		0EF0F79B1C2BC5610024F622 /* trans */ = {
+			isa = PBXGroup;
+			children = (
+				0EF0F7AB1C2BD25E0024F622 /* delegate */,
+				0EF0F79C1C2BC5840024F622 /* ADFirstViewController.h */,
+				0EF0F79D1C2BC5840024F622 /* ADFirstViewController.m */,
+				0EF0F79F1C2BC5B80024F622 /* ADSecondViewController.h */,
+				0EF0F7A01C2BC5B80024F622 /* ADSecondViewController.m */,
+				0EF0F7A21C2BC7580024F622 /* ADParentViewController.h */,
+				0EF0F7A31C2BC7580024F622 /* ADParentViewController.m */,
+				0EF0F7A51C2BCF310024F622 /* ADTransitionMain1ViewController.h */,
+				0EF0F7A61C2BCF310024F622 /* ADTransitionMain1ViewController.m */,
+				0EF0F7A81C2BCF400024F622 /* ADTransitionModal1ViewController.h */,
+				0EF0F7A91C2BCF400024F622 /* ADTransitionModal1ViewController.m */,
+			);
+			name = trans;
+			sourceTree = "<group>";
+		};
+		0EF0F7AB1C2BD25E0024F622 /* delegate */ = {
+			isa = PBXGroup;
+			children = (
+				0EF0F7AC1C2BD28C0024F622 /* ADBouncePresentAnimation.h */,
+				0EF0F7AD1C2BD28C0024F622 /* ADBouncePresentAnimation.m */,
+				0EF0F7AF1C2BDED20024F622 /* ADSwipeInteractiveTransition.h */,
+				0EF0F7B01C2BDED20024F622 /* ADSwipeInteractiveTransition.m */,
+				0EF0F7B21C2BE76E0024F622 /* ADBounceDismissAnimation.h */,
+				0EF0F7B31C2BE76E0024F622 /* ADBounceDismissAnimation.m */,
+			);
+			name = delegate;
+			sourceTree = "<group>";
+		};
+		0EFB373D1C2A3B180029EDC7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0EFB373E1C2A3B630029EDC7 /* ADLayer.h */,
+				0EFB373F1C2A3B630029EDC7 /* ADLayer.m */,
+				0EFB37411C2A3C910029EDC7 /* ADLayerView.h */,
+				0EFB37421C2A3C910029EDC7 /* ADLayerView.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,7 +295,7 @@
 		0E3330BD1BA2AC3D001633B1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = Leckie;
 				TargetAttributes = {
 					0E3330C41BA2AC3D001633B1 = {
@@ -220,7 +331,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E3330D41BA2AC3D001633B1 /* Main.storyboard in Resources */,
 				0E3330D91BA2AC3D001633B1 /* LaunchScreen.xib in Resources */,
 				0E3330D61BA2AC3D001633B1 /* Images.xcassets in Resources */,
 			);
@@ -240,10 +350,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E3330D11BA2AC3D001633B1 /* ViewController.m in Sources */,
-				0E3330CE1BA2AC3D001633B1 /* AppDelegate.m in Sources */,
-				0E3330F01BA2B0F3001633B1 /* LandscapeViewController.m in Sources */,
+				0E2C2B1E1C2A9C01009B672E /* ADDisplayLinkViewController.m in Sources */,
+				0EF0F7A41C2BC7580024F622 /* ADParentViewController.m in Sources */,
+				0E3330D11BA2AC3D001633B1 /* ADMainViewController.m in Sources */,
+				0E2C2B181C2A866C009B672E /* ADAnimationGroupViewController.m in Sources */,
+				0EF0F7A11C2BC5B80024F622 /* ADSecondViewController.m in Sources */,
+				0EF0F79E1C2BC5840024F622 /* ADFirstViewController.m in Sources */,
+				0EF0F7B11C2BDED20024F622 /* ADSwipeInteractiveTransition.m in Sources */,
+				0E6C1ADD1C2948F500A6FC85 /* ADAnchorPointViewController.m in Sources */,
+				0EFB37461C2A3E440029EDC7 /* ADViewLayerViewController.m in Sources */,
+				0E3330CE1BA2AC3D001633B1 /* ADAppDelegate.m in Sources */,
+				0EF0F79A1C2B90270024F622 /* ADScrollViewImageBrowserViewController.m in Sources */,
 				0E3330CB1BA2AC3D001633B1 /* main.m in Sources */,
+				0EFB37431C2A3C910029EDC7 /* ADLayerView.m in Sources */,
+				0E2C2B1B1C2A9216009B672E /* ADImageBrowserViewController.m in Sources */,
+				0E2C2B151C2A7BC0009B672E /* ADCoreAnimation2ViewController.m in Sources */,
+				0EF0F7AA1C2BCF400024F622 /* ADTransitionModal1ViewController.m in Sources */,
+				0EFB37401C2A3B630029EDC7 /* ADLayer.m in Sources */,
+				0EF0F7A71C2BCF310024F622 /* ADTransitionMain1ViewController.m in Sources */,
+				0E3D662C1C294F1900A078F3 /* ADDrawLayerViewController.m in Sources */,
+				0EFB37491C2A489E0029EDC7 /* ADCoreAnimation1ViewController.m in Sources */,
+				0EF0F7B41C2BE76E0024F622 /* ADBounceDismissAnimation.m in Sources */,
+				0EF0F7AE1C2BD28C0024F622 /* ADBouncePresentAnimation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,14 +394,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0E3330D21BA2AC3D001633B1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0E3330D31BA2AC3D001633B1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0E3330D71BA2AC3D001633B1 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -306,6 +426,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -371,6 +492,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AnimationDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.leckie.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -381,6 +503,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AnimationDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.leckie.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -399,6 +522,7 @@
 				);
 				INFOPLIST_FILE = AnimationDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.leckie.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimationDemo.app/AnimationDemo";
 			};
@@ -414,6 +538,7 @@
 				);
 				INFOPLIST_FILE = AnimationDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.leckie.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimationDemo.app/AnimationDemo";
 			};

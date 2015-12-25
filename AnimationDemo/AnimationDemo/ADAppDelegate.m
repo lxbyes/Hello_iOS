@@ -6,17 +6,18 @@
 //  Copyright (c) 2015 Leckie. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "ADAppDelegate.h"
+#import "ADMainViewController.h"
 
-@interface AppDelegate ()
-
-@end
-
-@implementation AppDelegate
+@implementation ADAppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    _window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    ADMainViewController *viewController = [[ADMainViewController alloc] init];
+    UINavigationController *rootViewController = [[UINavigationController alloc] initWithRootViewController:viewController];
+    _window.rootViewController = rootViewController;
+    [_window makeKeyAndVisible];
     return YES;
 }
 

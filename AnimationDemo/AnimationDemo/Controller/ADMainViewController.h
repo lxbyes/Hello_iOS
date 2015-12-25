@@ -1,5 +1,5 @@
 //
-//  LandscapeViewController.h
+//  ViewController.h
 //  AnimationDemo
 //
 //  Created by 赖显波 on 9/11/15.
@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface LandscapeViewController : UIViewController
+@interface ADMainViewController : UIViewController
 
 @end
+
