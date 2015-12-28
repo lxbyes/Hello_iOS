@@ -10,6 +10,9 @@
 		0E1AABE61C30DF0700FD4AEC /* ADMagicMoveInverseTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E1AABE51C30DF0700FD4AEC /* ADMagicMoveInverseTransition.m */; };
 		0E1AABE91C30F5CE00FD4AEC /* ADNavigationBackTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E1AABE81C30F5CE00FD4AEC /* ADNavigationBackTransition.m */; };
 		0E1AABEC1C31041400FD4AEC /* ADNavigationBackEdgePanInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E1AABEB1C31041400FD4AEC /* ADNavigationBackEdgePanInteractiveTransition.m */; };
+		0E1AABEF1C311FB500FD4AEC /* ADPingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E1AABEE1C311FB500FD4AEC /* ADPingViewController.m */; };
+		0E1AABF21C3120BE00FD4AEC /* ADPingDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E1AABF11C3120BE00FD4AEC /* ADPingDetailViewController.m */; };
+		0E1AABF51C3121FD00FD4AEC /* ADPingTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E1AABF41C3121FD00FD4AEC /* ADPingTransition.m */; };
 		0E2C2B151C2A7BC0009B672E /* ADCoreAnimation2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2C2B141C2A7BC0009B672E /* ADCoreAnimation2ViewController.m */; };
 		0E2C2B181C2A866C009B672E /* ADAnimationGroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2C2B171C2A866C009B672E /* ADAnimationGroupViewController.m */; };
 		0E2C2B1B1C2A9216009B672E /* ADImageBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2C2B1A1C2A9216009B672E /* ADImageBrowserViewController.m */; };
@@ -57,6 +60,12 @@
 		0E1AABE81C30F5CE00FD4AEC /* ADNavigationBackTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADNavigationBackTransition.m; sourceTree = "<group>"; };
 		0E1AABEA1C31041400FD4AEC /* ADNavigationBackEdgePanInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADNavigationBackEdgePanInteractiveTransition.h; sourceTree = "<group>"; };
 		0E1AABEB1C31041400FD4AEC /* ADNavigationBackEdgePanInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADNavigationBackEdgePanInteractiveTransition.m; sourceTree = "<group>"; };
+		0E1AABED1C311FB500FD4AEC /* ADPingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADPingViewController.h; sourceTree = "<group>"; };
+		0E1AABEE1C311FB500FD4AEC /* ADPingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADPingViewController.m; sourceTree = "<group>"; };
+		0E1AABF01C3120BE00FD4AEC /* ADPingDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADPingDetailViewController.h; sourceTree = "<group>"; };
+		0E1AABF11C3120BE00FD4AEC /* ADPingDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADPingDetailViewController.m; sourceTree = "<group>"; };
+		0E1AABF31C3121FD00FD4AEC /* ADPingTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADPingTransition.h; sourceTree = "<group>"; };
+		0E1AABF41C3121FD00FD4AEC /* ADPingTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADPingTransition.m; sourceTree = "<group>"; };
 		0E2C2B131C2A7BC0009B672E /* ADCoreAnimation2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCoreAnimation2ViewController.h; sourceTree = "<group>"; };
 		0E2C2B141C2A7BC0009B672E /* ADCoreAnimation2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCoreAnimation2ViewController.m; sourceTree = "<group>"; };
 		0E2C2B161C2A866C009B672E /* ADAnimationGroupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADAnimationGroupViewController.h; sourceTree = "<group>"; };
@@ -173,6 +182,12 @@
 				0E1AABE51C30DF0700FD4AEC /* ADMagicMoveInverseTransition.m */,
 				0E1AABE71C30F5CE00FD4AEC /* ADNavigationBackTransition.h */,
 				0E1AABE81C30F5CE00FD4AEC /* ADNavigationBackTransition.m */,
+				0E1AABED1C311FB500FD4AEC /* ADPingViewController.h */,
+				0E1AABEE1C311FB500FD4AEC /* ADPingViewController.m */,
+				0E1AABF01C3120BE00FD4AEC /* ADPingDetailViewController.h */,
+				0E1AABF11C3120BE00FD4AEC /* ADPingDetailViewController.m */,
+				0E1AABF31C3121FD00FD4AEC /* ADPingTransition.h */,
+				0E1AABF41C3121FD00FD4AEC /* ADPingTransition.m */,
 			);
 			name = advanced;
 			sourceTree = "<group>";
@@ -396,6 +411,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E1AABF21C3120BE00FD4AEC /* ADPingDetailViewController.m in Sources */,
 				0E2C2B1E1C2A9C01009B672E /* ADDisplayLinkViewController.m in Sources */,
 				0EF0F7A41C2BC7580024F622 /* ADParentViewController.m in Sources */,
 				0E1AABE91C30F5CE00FD4AEC /* ADNavigationBackTransition.m in Sources */,
@@ -403,9 +419,11 @@
 				0E1AABE61C30DF0700FD4AEC /* ADMagicMoveInverseTransition.m in Sources */,
 				0E3245841C2D3A0E00704A2D /* ADCollectionViewController.m in Sources */,
 				0E3330D11BA2AC3D001633B1 /* ADMainViewController.m in Sources */,
+				0E1AABEF1C311FB500FD4AEC /* ADPingViewController.m in Sources */,
 				0E2C2B181C2A866C009B672E /* ADAnimationGroupViewController.m in Sources */,
 				0EF0F7A11C2BC5B80024F622 /* ADSecondViewController.m in Sources */,
 				0EF0F79E1C2BC5840024F622 /* ADFirstViewController.m in Sources */,
+				0E1AABF51C3121FD00FD4AEC /* ADPingTransition.m in Sources */,
 				0EF0F7B11C2BDED20024F622 /* ADSwipeInteractiveTransition.m in Sources */,
 				0E6C1ADD1C2948F500A6FC85 /* ADAnchorPointViewController.m in Sources */,
 				0EFB37461C2A3E440029EDC7 /* ADViewLayerViewController.m in Sources */,

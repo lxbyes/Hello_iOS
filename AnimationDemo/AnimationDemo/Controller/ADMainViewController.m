@@ -34,7 +34,8 @@
                   @"ADDisplayLinkViewController",
                   @"ADParentViewController",
                   @"ADTransitionMain1ViewController",
-                  @"ADCollectionViewController"];
+                  @"ADCollectionViewController",
+                  @"ADPingViewController"];
 }
 
 - (void)initViews {
