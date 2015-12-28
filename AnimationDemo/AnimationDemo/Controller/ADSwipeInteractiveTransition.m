@@ -23,7 +23,8 @@
 }
 
 - (void)prepareGestureRecognizerInView:(UIView *)view {
-    UIPanGestureRecognizer *gesture = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(handleGesture:)];
+    UIScreenEdgePanGestureRecognizer *gesture = [[UIScreenEdgePanGestureRecognizer alloc] initWithTarget:self action:@selector(handleGesture:)];
+    gesture.edges = UIRectEdgeLeft;
     [view addGestureRecognizer:gesture];
 }
 
@@ -42,8 +43,8 @@
         }
         case UIGestureRecognizerStateChanged: {
             // 2. Calculate the percentage of guesture
-            CGFloat fraction = translation.x / ([UIScreen mainScreen].bounds.size.width / 1.2);
-            fraction = fminf(fmaxf(fraction, 0.0), 1.0);
+            CGFloat fraction = translation.x / ([UIScreen mainScreen].bounds.size.width * 1.0);
+            fraction = fminf(fmaxf(fraction * 1.2, 0.0), 1.0);
             self.shouldComplete = (fraction > 0.4);
             [self updateInteractiveTransition:fraction];
             break;

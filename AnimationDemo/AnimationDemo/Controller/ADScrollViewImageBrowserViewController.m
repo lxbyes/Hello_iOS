@@ -86,6 +86,10 @@
 #pragma mark - ScrollView delegate
 // scroll stop
 - (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView {
+    CGPoint offset = _scrollView.contentOffset;
+    if (fabs(offset.x - kContentWidth) < kContentWidth / 3) {
+        return;
+    }
     [self reloadImage];
     [_scrollView setContentOffset:CGPointMake(kContentWidth, 0) animated:NO];
     _pageControl.currentPage = _currentIndex;

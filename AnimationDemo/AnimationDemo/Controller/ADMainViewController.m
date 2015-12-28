@@ -33,7 +33,8 @@
                   @"ADScrollViewImageBrowserViewController",
                   @"ADDisplayLinkViewController",
                   @"ADParentViewController",
-                  @"ADTransitionMain1ViewController"];
+                  @"ADTransitionMain1ViewController",
+                  @"ADCollectionViewController"];
 }
 
 - (void)initViews {
